@@ -1,0 +1,48 @@
+Game idea : Hangman game 
+▪ User stories :
+• As a user , I want to know that I’m in the right page .
+• As a user , I want to see clearly labeled button for each letter.
+• As a user , I want to be able to press the buttons and choose letters.
+• As I user , I want to know if the if the letter I’ve chosen is a correct letter 
+or not.
+• As a user , I want to have a hint that will help me knowing the word .
+• As a user , I want to know how many iterations do I have until the game is 
+over .
+• As a user , I want to be able to reset the game and play again .
+o Pseudo code :
+1. Initialize game variables:
+ - Define necessary variables for game state, scores, player positions, etc.
+2. Set up the game environment:
+ - Create necessary elements such as game board, player characters, obstacles, etc.
+ - Initialize the game display and user interface.
+3. Define game functions:
+ - Function to start/restart the game.
+ - Functions to handle player movements.
+ - Functions to check for collisions, win conditions, or game-over conditions.
+ - Functions to update the game state and user interface.
+4. Main game loop:
+ - While the game is active:
+ - Handle player input (e.g., keyboard commands, mouse clicks).
+ - Update player positions based on input.
+ - Check for collisions with obstacles or other game elements.
+ - Check win/lose conditions.
+ - Update game state and display.
+5. Game Over:
+ - If win condition is met:
+ - Display win message.
+ - Update scores or game statistics.
+ - If lose condition is met:
+ - Display game over message.
+ - Allow the player to restart the game.
+6. Event listeners:
+ - Set up event listeners for user input (e.g., keyboard events, mouse clicks).
+7. Initialize the game:
+ - Start the game by initializing the game environment, setting up event listeners, and 
+starting the main game loop.
+8. Additional features:
+ - Add features like levels, power-ups, multiplayer options, etc., as needed.
+9. End of game:
+ - Provide an option to restart the game or exit.
+10. Cleanup:
+ - Ensure proper cleanup of resources and event listeners when the game ends or the 
+player exits.

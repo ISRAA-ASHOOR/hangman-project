@@ -241,7 +241,7 @@ const reset = () => {
     correctLetters = [];
     incorrectAttempts = 0;
     model.classList.add("hidden");
-    hangImgEl.src = "./assest/hang1.png";
+    hangImgEl.src = "./assets/hang1.png";
     guessesEl.innerText = `${incorrectAttempts} / ${maxAttempts}`;
     keyboardEl.querySelectorAll("button").forEach(button => button.disabled = false);
 }
@@ -263,13 +263,13 @@ const gameOver = (win) => {
     setTimeout(() => {
         if (win === true) {
             const text = 'You found the word:';
-            model.querySelector("img").src = "./assest/victory.gif";
+            model.querySelector("img").src = "./assets/victory.gif";
             model.querySelector("h4").innerText = 'Congratulations!';
             model.querySelector("p").innerHTML = `${text} <b>${currentWord}</b>`;
             model.classList.remove("hidden");
         } else if (win === false) {
             const text1 = 'The correct word is:';
-            model.querySelector("img").src = "./assest/gameover.gif";
+            model.querySelector("img").src = "./assets/gameover.gif";
             model.querySelector("h4").innerText = 'GAME OVER!!!';
             model.querySelector("p").innerHTML = `${text1} <b>${currentWord}</b>`;
             model.classList.remove("hidden");
@@ -295,17 +295,17 @@ const init = () => {
         console.log(`${currentLetter} does not exist in word`);
         // updating the images 
         if (incorrectAttempts === 1) {
-            hangImgEl.src = `./assest/hang2.png`;
+            hangImgEl.src = `./assets/hang2.png`;
         } else if (incorrectAttempts === 2) {
-            hangImgEl.src = "./assest/hang3.png";
+            hangImgEl.src = "./assets/hang3.png";
         } else if (incorrectAttempts === 3) {
-            hangImgEl.src = "./assest/hang4.png";
+            hangImgEl.src = "./assets/hang4.png";
         } else if (incorrectAttempts === 4) {
-            hangImgEl.src = "./assest/hang5.png";
+            hangImgEl.src = "./assets/hang5.png";
         } else if (incorrectAttempts === 5) {
-            hangImgEl.src = "./assest/hang6.png";
+            hangImgEl.src = "./assets/hang6.png";
         } else if (incorrectAttempts === maxAttempts) {
-            hangImgEl.src = "./assest/hang7.png";
+            hangImgEl.src = "./assets/hang7.png";
             if (correctLetters.length !== currentWord.length){
                 gameOver(false);
             }

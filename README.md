@@ -6,17 +6,17 @@ Hangman is a word-guessing game . In this game here the computer pick a random w
 
 ## Getting started
 
-![alt text](</assest/hangman-game.png>)
+![alt text](</assets/hangman-game.png>)
 
 ## Game status
 
 Winning 
 
-![alt text](</assest/win.png>)
+![alt text](</assets/win.png>)
 
 Losing 
 
-![alt text](</assest/lose.png>)
+![alt text](</assets/lose.png>)
 
 ## Attributions
 

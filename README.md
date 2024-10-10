@@ -8,6 +8,10 @@ Hangman is a word-guessing game . In this game here the computer pick a random w
 
 ![alt text](</assets/hangman-game.png>)
 
+## Live game
+
+To play the game [click here](https://israa-ashoor.github.io/hangman-project/)
+
 ## Game status
 
 Winning 
